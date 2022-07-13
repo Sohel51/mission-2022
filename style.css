@@ -1,0 +1,209 @@
+/* default style */
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+*{
+    margin: 0; padding: 0;
+    font-family: 'Tapestry', cursive;
+}
+
+section{
+    padding: 0rem 8rem;
+}
+
+/* home section style */
+.home{
+    display: flex;
+    padding-top: 5rem;
+}
+
+.home .content{
+    width: 60%;
+}
+
+.home .content h1{
+    font-size: 4rem;
+    border-left: .3rem solid tomato;
+    padding-left: .8rem;
+}
+
+.home .content span{
+    font-size: 4rem;
+    color: rgb(18, 109, 230);
+}
+
+.home .content p{
+    padding: 2rem 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: .8rem 2rem;
+    border-radius: .5rem;
+}
+
+.home .image{
+    width: 50%;
+    margin-left: 15rem;
+}
+
+section img{
+    width: 100%;
+}
+
+/* mission section style */
+.mission h1{
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.mission h1 span{
+    color: rgb(18, 109, 230);
+}
+.mission .box-container{
+    display: flex;
+}
+
+.mission .box-container img{
+    width: 60%;
+}
+
+.mission .box-container .box1{
+    padding: 2rem;
+    background-color: blanchedalmond;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.mission .box-container .box1 p{
+    padding: 1rem 0;
+}
+
+.mission .box-container .box2{
+    padding: 2rem;
+    background-color: rgb(200, 247, 125);
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.mission .box-container .box2 p{
+    padding: 1rem 0;
+}
+
+.mission .box-container .box3{
+    padding: 2rem;
+    background-color: rgb(148, 245, 153);
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.mission .box-container .box3 p{
+    padding: 1rem 0;
+}
+
+/* devolop section style */
+.devolop{
+    padding: 5rem 8rem;
+}
+
+.devolop .box-container .image{
+    margin-right: 7rem;
+}
+
+.devolop .box-container{
+    display: flex;
+}
+
+.devolop .box-container .content h2{
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.devolop .box-container .content p{
+    padding: 2rem 0;
+}
+/* community section style */
+.community{
+    padding: 5rem 8rem;
+}
+
+.community .box-container{
+    display: flex;
+}
+
+
+.community .box-container .content h2{
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.community .box-container .content p{
+    padding: 2rem 0;
+}
+
+.community .box-container .image{
+    margin-left: 7rem;
+}
+
+/* contact sectio style */
+.contact{
+    border: .5rem solid tomato;
+}
+.contact h1{
+    font-size: 5rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.contact .box-container{
+    display: flex;
+}
+
+.contact .box-container .box1{
+    width: 34rem;
+    padding: 5rem;
+    border: 5px solid;
+    margin-right: 10px;
+}
+
+.contact .box-container .box1 h2{
+    padding: 2rem 0;
+}
+
+.contact .box-container .box2{
+    width: 34rem;
+    padding: 1rem;
+    border: 5px solid;
+}
+
+.contact .box-container .box2 input{
+    display: block;
+    width: 95%;
+    padding: .5rem;
+    margin: .5rem 0;
+}
+
+.contact .box-container .box2 form #btn{
+    margin-left: 0.7rem;
+}
+
+/* footer section style */
+footer{
+    padding: 1rem;
+    background-color: rgb(15, 18, 24);
+    text-align: center;
+}
+
+footer h1{
+    color: white;
+    padding: 2rem;
+}
+
+footer span{
+    color: tomato;
+}
+
+footer p{
+    color: wheat;
+}
